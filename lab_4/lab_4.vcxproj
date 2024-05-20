@@ -127,7 +127,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="city.cpp" />
+    <ClCompile Include="functions.cpp" />
+    <ClCompile Include="Individual.cpp" />
     <ClCompile Include="lab_4.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="city.h" />
+    <ClInclude Include="functions.h" />
+    <ClInclude Include="Individual.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
